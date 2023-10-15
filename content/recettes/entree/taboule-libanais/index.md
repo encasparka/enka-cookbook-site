@@ -1,7 +1,6 @@
 ---
 draft: false
 layout: recettes
-
 regime:
   - vegetarien
   - vegan
