@@ -4,8 +4,8 @@
   ignore = "git diff --name-only $CACHED_COMMIT_REF $COMMIT_REF | tr -d '\n' | grep -q '^README.md$'"
 
 [build.environment]
-  NODE_VERSION = "18.16.1"
-  NPM_VERSION = "9.5.1"
+  # NODE_VERSION = "18.16.1"
+  # NPM_VERSION = "9.5.1"
   GO_VERSION = "1.21.1" # Added for hugo-module compatibility. See go.mod file
 
 [context.production]

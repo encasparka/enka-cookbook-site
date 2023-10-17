@@ -1,1 +1,3 @@
-static/images/.directory
+.directory
+public
+node_modules
