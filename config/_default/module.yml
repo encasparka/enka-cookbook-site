@@ -1,0 +1,36 @@
+# Importation du theme hugo-enka-cookbook en tant que module. 
+
+
+mounts:
+  - source: assets
+    target: assets
+  - source: node_modules/@qaldek/hugo-enka-cookbook/assets
+    target: assets
+# layouts
+  - source: layouts
+    target: layouts
+  - source: node_modules/@hyas/core/layouts
+    target: layouts
+  - source: node_modules/@hyas/seo/layouts
+    target: layouts
+  - source: node_modules/@qaldek/hugo-enka-cookbook/layouts
+    target: layouts
+  - source: node_modules/@hyas/bootstrap/layouts
+    target: layouts
+
+# static
+  - source: node_modules/@qaldek/hugo-enka-cookbook/static
+    target: static
+  - source: static
+    target: static
+# data
+  - source : node_modules/@qaldek/hugo-enka-cookbook/data 
+    target : data
+# other
+  - source: node_modules/bootstrap/scss
+    target: assets/scss/bootstrap
+  - source: node_modules/flatpickr/dist
+    target: static/flatpickr
+
+
+  
