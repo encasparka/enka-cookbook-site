@@ -1,3 +1,6 @@
 .directory
 public
 node_modules
+ressources
+*bak
+*BAK
