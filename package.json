@@ -25,14 +25,10 @@
   },
 
   "devDependencies": {
-    "@hyas/bootstrap": "^1.0.4",
-    "@hyas/images": "^2.0.3",
-    "@hyas/seo": "^2.1.0",
-    "@qaldek/hugo-enka-cookbook": "^0.8.4",
-    "decap-server": "^3.0.1",
-    "prettier": "2.8.8",
-    "prettier-plugin-go-template": "0.0.13"
+    "gethyas": "^2.2.2",
+    "@qaldek/hugo-enka-cookbook": "^0.8.4"
   },
+
   "engines": {
     "node": ">=16.12.0"
   }
