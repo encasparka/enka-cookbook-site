@@ -1,6 +1,10 @@
 .directory
 public
 node_modules
-ressources
 *bak
 *BAK
+resources
+.netlify
+.hugo_build.lock
+.vscode
+go.mod
