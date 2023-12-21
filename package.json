@@ -2,7 +2,10 @@
   "name": "enka-cookbook-site",
   "version": "0.8.1",
   "description": "Cookbook site for teams",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/encas-parka/enka-cookbook-site"
+  },
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
     "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts",
