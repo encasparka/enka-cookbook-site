@@ -4,10 +4,27 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@hyas/bootstrap':
+    specifier: ^1.0.4
+    version: 1.0.4
+  '@hyas/images':
+    specifier: ^2.0.3
+    version: 2.0.3
+  '@hyas/seo':
+    specifier: ^2.1.0
+    version: 2.1.0
+  flatpickr:
+    specifier: ^4.6.13
+    version: 4.6.13
+  hugo-enka-cookbook:
+    specifier: github:encas-parka/hugo-enka-cookbook#main
+    version: github.com/encas-parka/hugo-enka-cookbook/40bb4a5de395ab15b2054603c13d96cb2bd4daee
+
 devDependencies:
   '@qaldek/hugo-enka-cookbook':
-    specifier: ^0.8.4
-    version: 0.8.4(react-dom@16.14.0)(react@16.14.0)
+    specifier: ^0.8.7
+    version: 0.8.7
   gethyas:
     specifier: ^2.2.2
     version: 2.2.2(react-dom@16.14.0)(react@16.14.0)
@@ -1319,17 +1336,22 @@ packages:
     dependencies:
       '@popperjs/core': 2.11.8
       bootstrap: 5.3.2(@popperjs/core@2.11.8)
-    dev: true
+    dev: false
 
   /@hyas/core@1.0.2:
     resolution: {integrity: sha512-tU1Lw4iZ/qdTLrvHTO447cTDUdU8xTyP2QpKgU0uRY18EyaIsZWN6w1v+Z2PDY8OGL8uboYFRBuMww+TFylunA==}
     engines: {node: '>=16.12.0'}
     dev: true
 
+  /@hyas/images@2.0.3:
+    resolution: {integrity: sha512-4LqRiOZDQ3h0qyNBCRqfBD3yKwsVWmhPe0/JGuxtn6Kpr7GdTOBKNcfKunR8MATIBI15/Zulil9bYsFnCGr8Cw==}
+    engines: {node: '>=16.12.0'}
+    dev: false
+
   /@hyas/seo@2.1.0:
     resolution: {integrity: sha512-yeXZuK1IUXd5xbD683lYqdLl0PVafArWYHoZmqKTYBl7I7ewDYWIzU020Nzf0D447RxwzOoC76SVVmlnY6qGGQ==}
     engines: {node: '>=16.12.0'}
-    dev: true
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -1390,44 +1412,13 @@ packages:
 
   /@popperjs/core@2.11.8:
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
-    dev: true
+    dev: false
 
-  /@qaldek/hugo-enka-cookbook@0.8.4(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-Qc8EzcQTaif2pdZhsum9r2d5Hr0wjqNlFpKJW/C+e5OeuAqkR3WLBq8EGZ0d5m19Hmqem618NT3vpQmI0XWEDw==}
+  /@qaldek/hugo-enka-cookbook@0.8.7:
+    resolution: {integrity: sha512-enn2yt0zTF5MpTYaQ1P94RJCxqC24K5f7DpeSiKwyBmfwPP4h9rkM1cA+pwDgv9qDdvakw5WSJfCg6IKaeajeQ==}
     engines: {node: '>=16.12.0', pnpm: '>=8.6.2'}
-    requiresBuild: true
     dependencies:
-      '@babel/cli': 7.23.4(@babel/core@7.23.6)
-      '@babel/core': 7.23.6
-      '@babel/preset-env': 7.23.6(@babel/core@7.23.6)
-      '@fullhuman/postcss-purgecss': 5.0.0(postcss@8.4.32)
-      '@hyas/bootstrap': 1.0.4
-      '@hyas/core': 1.0.2
-      '@hyas/seo': 2.1.0
-      autoprefixer: 10.4.16(postcss@8.4.32)
-      eslint: 8.56.0
-      exec-bin: 1.0.0
       flatpickr: 4.6.13
-      http-server: 14.1.1
-      hugo-installer: 4.0.1
-      lazysizes: 5.3.2
-      markdownlint-cli2: 0.10.0
-      modern-css-reset: 1.4.0
-      netlify-plugin-submit-sitemap: 0.4.0
-      postcss: 8.4.32
-      postcss-cli: 10.1.0(postcss@8.4.32)
-      purgecss-whitelister: 2.4.0
-      quicklink: 2.3.0(react-dom@16.14.0)(react@16.14.0)
-      shx: 0.3.4
-      stylelint: 15.11.0
-      stylelint-config-standard-scss: 11.1.0(postcss@8.4.32)(stylelint@15.11.0)
-    transitivePeerDependencies:
-      - debug
-      - react
-      - react-dom
-      - supports-color
-      - ts-node
-      - typescript
     dev: true
 
   /@sindresorhus/is@5.6.0:
@@ -1586,7 +1577,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.22.2
-      caniuse-lite: 1.0.30001570
+      caniuse-lite: 1.0.30001571
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1668,7 +1659,7 @@ packages:
       '@popperjs/core': ^2.11.8
     dependencies:
       '@popperjs/core': 2.11.8
-    dev: true
+    dev: false
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -1695,7 +1686,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001570
+      caniuse-lite: 1.0.30001571
       electron-to-chromium: 1.4.615
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
@@ -1778,8 +1769,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite@1.0.30001570:
-    resolution: {integrity: sha512-+3e0ASu4sw1SWaoCtvPeyXp+5PsjigkSt8OXZbF9StH5pQWbxEjLAZE3n8Aup5udop1uRiKA7a4utUk/uoSpUw==}
+  /caniuse-lite@1.0.30001571:
+    resolution: {integrity: sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==}
     dev: true
 
   /chalk@2.4.2:
@@ -2373,7 +2364,6 @@ packages:
 
   /flatpickr@4.6.13:
     resolution: {integrity: sha512-97PMG/aywoYpB4IvbvUJi0RQi8vearvU0oov1WW3k0WZPBMrTQVqekSX5CjSG/M4Q3i6A/0FKXC7RyAoAUUSPw==}
-    dev: true
 
   /flatted@3.2.9:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
@@ -4586,3 +4576,15 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  github.com/encas-parka/hugo-enka-cookbook/40bb4a5de395ab15b2054603c13d96cb2bd4daee:
+    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/40bb4a5de395ab15b2054603c13d96cb2bd4daee}
+    name: '@qaldek/hugo-enka-cookbook'
+    version: 0.8.8
+    engines: {node: '>=16.12.0', pnpm: '>=8.6.2'}
+    dependencies:
+      '@hyas/bootstrap': 1.0.4
+      '@hyas/images': 2.0.3
+      '@hyas/seo': 2.1.0
+      flatpickr: 4.6.13
+    dev: false

@@ -3,7 +3,7 @@ relativeURLs: true
 canonifyURLs: false
 disableAliases: true
 disableHugoGeneratorInject: true
-disableKinds: ["taxonomy", "term"]
+# disableKinds: ["taxonomy", "term"]
 
 removePathAccents: true
 enableEmoji: true
