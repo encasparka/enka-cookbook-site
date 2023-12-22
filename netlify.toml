@@ -3,9 +3,9 @@
   functions = "functions"
  
 [build.environment]
-  NODE_VERSION = "18.16.1"
-  NPM_VERSION = "9.5.1"
-  GO_VERSION = "1.21.1" # Added for hugo-module compatibility. See go.mod file
+  # NODE_VERSION = "18.16.1"
+  # NPM_VERSION = "9.5.1"
+  # GO_VERSION = "1.21.1" # Added for hugo-module compatibility. See go.mod file
 
 [context.production]
   command = "hugo --gc --minify"
