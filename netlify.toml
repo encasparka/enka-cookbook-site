@@ -2,15 +2,13 @@
   publish = "public"
   functions = "functions"
  
-
-
 [build.environment]
   NODE_VERSION = "18.16.1"
   NPM_VERSION = "9.5.1"
   GO_VERSION = "1.21.1" # Added for hugo-module compatibility. See go.mod file
 
 [context.production]
-  command = "npm run build"
+  command = "hugo --gc --minify"
 
 [context.deploy-preview]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
@@ -26,18 +24,18 @@
   HUGO_ENV = "next"
 
 # XXX
-# [[plugins]]
-#   package = "netlify-plugin-submit-sitemap"
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
 
-# 	[plugins.inputs]
-#     baseUrl = "https://cookbook.netlify.app/"
-#     sitemapPath = "/sitemap.xml"
-#     ignorePeriod = 0
-#     providers = [
-#       "google",
-#       "bing",
-#       "yandex"
-#     ]
+	[plugins.inputs]
+    baseUrl = "https://cookbook.netlify.app/"
+    sitemapPath = "/sitemap.xml"
+    ignorePeriod = 0
+    providers = [
+      "google",
+      "bing",
+      "yandex"
+    ]
 
 [dev]
   framework = "#custom"
