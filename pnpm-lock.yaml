@@ -19,7 +19,7 @@ dependencies:
     version: 4.6.13
   hugo-enka-cookbook:
     specifier: github:encas-parka/hugo-enka-cookbook#main
-    version: github.com/encas-parka/hugo-enka-cookbook/673ddf5a45ac55362ad41312c5a80db000f6f263(vue@2.7.16)
+    version: github.com/encas-parka/hugo-enka-cookbook/3dea2c19f039a92e7751f37f9e740e2ee63cafde(vue@2.7.16)
 
 devDependencies:
   '@qaldek/hugo-enka-cookbook':
@@ -4614,11 +4614,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/encas-parka/hugo-enka-cookbook/673ddf5a45ac55362ad41312c5a80db000f6f263(vue@2.7.16):
-    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/673ddf5a45ac55362ad41312c5a80db000f6f263}
-    id: github.com/encas-parka/hugo-enka-cookbook/673ddf5a45ac55362ad41312c5a80db000f6f263
+  github.com/encas-parka/hugo-enka-cookbook/3dea2c19f039a92e7751f37f9e740e2ee63cafde(vue@2.7.16):
+    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/3dea2c19f039a92e7751f37f9e740e2ee63cafde}
+    id: github.com/encas-parka/hugo-enka-cookbook/3dea2c19f039a92e7751f37f9e740e2ee63cafde
     name: '@qaldek/hugo-enka-cookbook'
-    version: 0.8.8
+    version: 0.9.0
     requiresBuild: true
     dependencies:
       '@hyas/bootstrap': 1.0.4
