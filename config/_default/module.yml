@@ -18,6 +18,13 @@ mounts:
   - source: static
     target: static
 
+# bootstrap
+  - source: node_modules/bootstrap/scss
+    target: assets/scss/bootstrap
+  - source: node_modules/bootstrap/dist/js/bootstrap.bundle.js
+    target: assets/js/bootstrap.js
+
+
 # flatpickr
   - source: node_modules/flatpickr/dist/
     target: assets/flatpickr
