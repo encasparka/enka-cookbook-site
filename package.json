@@ -16,12 +16,12 @@
     "@hyas/bootstrap": "^1.0.4",
     "@hyas/images": "^2.0.3",
     "@hyas/seo": "^2.1.0",
-    "flatpickr": "^4.6.13",
-    "hugo-enka-cookbook": "github:encas-parka/hugo-enka-cookbook#main"
+    "hugo-enka-cookbook": "github:encas-parka/hugo-enka-cookbook",
+    "flatpickr": "^4.6.13"
   },
   "description": "Cookbook site for teams",
   "devDependencies": {
-    "@qaldek/hugo-enka-cookbook": "^0.8.7",
+
     "gethyas": "^2.2.2"
   },
   "engines": {

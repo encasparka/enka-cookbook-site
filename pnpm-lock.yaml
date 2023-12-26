@@ -18,13 +18,10 @@ dependencies:
     specifier: ^4.6.13
     version: 4.6.13
   hugo-enka-cookbook:
-    specifier: github:encas-parka/hugo-enka-cookbook#main
-    version: github.com/encas-parka/hugo-enka-cookbook/3dea2c19f039a92e7751f37f9e740e2ee63cafde(vue@2.7.16)
+    specifier: github:encas-parka/hugo-enka-cookbook
+    version: github.com/encas-parka/hugo-enka-cookbook/565f70935584064882a61c425716f0a2d2129a50(vue@2.7.16)
 
 devDependencies:
-  '@qaldek/hugo-enka-cookbook':
-    specifier: ^0.8.7
-    version: 0.8.7
   gethyas:
     specifier: ^2.2.2
     version: 2.2.2(react-dom@16.14.0)(react@16.14.0)
@@ -1251,13 +1248,13 @@ packages:
       '@csstools/css-tokenizer': 2.2.2
     dev: true
 
-  /@csstools/selector-specificity@3.0.1(postcss-selector-parser@6.0.13):
+  /@csstools/selector-specificity@3.0.1(postcss-selector-parser@6.0.14):
     resolution: {integrity: sha512-NPljRHkq4a14YzZ3YD406uaxh7s0g6eAq3L9aLOWywoqe8PkYamAvtsh7KNX6c++ihDrJ0RiU+/z7rGnhlZ5ww==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss-selector-parser: ^6.0.13
     dependencies:
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
     dev: true
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.56.0):
@@ -1409,13 +1406,6 @@ packages:
   /@popperjs/core@2.11.8:
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
     dev: false
-
-  /@qaldek/hugo-enka-cookbook@0.8.7:
-    resolution: {integrity: sha512-enn2yt0zTF5MpTYaQ1P94RJCxqC24K5f7DpeSiKwyBmfwPP4h9rkM1cA+pwDgv9qDdvakw5WSJfCg6IKaeajeQ==}
-    engines: {node: '>=16.12.0', pnpm: '>=8.6.2'}
-    dependencies:
-      flatpickr: 4.6.13
-    dev: true
 
   /@sindresorhus/is@5.6.0:
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
@@ -2374,6 +2364,7 @@ packages:
 
   /flatpickr@4.6.13:
     resolution: {integrity: sha512-97PMG/aywoYpB4IvbvUJi0RQi8vearvU0oov1WW3k0WZPBMrTQVqekSX5CjSG/M4Q3i6A/0FKXC7RyAoAUUSPw==}
+    dev: false
 
   /flatted@3.2.9:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
@@ -3580,8 +3571,8 @@ packages:
       postcss: 8.4.32
     dev: true
 
-  /postcss-selector-parser@6.0.13:
-    resolution: {integrity: sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==}
+  /postcss-selector-parser@6.0.14:
+    resolution: {integrity: sha512-65xXYsT40i9GyWzlHQ5ShZoK7JZdySeOozi/tz2EezDo6c04q6+ckYMeoY7idaie1qp2dT5KoYQ2yky6JuoHnA==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -3657,7 +3648,7 @@ packages:
       commander: 9.5.0
       glob: 8.1.0
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
     dev: true
 
   /qs@6.11.2:
@@ -4186,7 +4177,7 @@ packages:
       known-css-properties: 0.29.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
       postcss-value-parser: 4.2.0
       stylelint: 15.11.0
     dev: true
@@ -4199,7 +4190,7 @@ packages:
       '@csstools/css-parser-algorithms': 2.4.0(@csstools/css-tokenizer@2.2.2)
       '@csstools/css-tokenizer': 2.2.2
       '@csstools/media-query-list-parser': 2.1.6(@csstools/css-parser-algorithms@2.4.0)(@csstools/css-tokenizer@2.2.2)
-      '@csstools/selector-specificity': 3.0.1(postcss-selector-parser@6.0.13)
+      '@csstools/selector-specificity': 3.0.1(postcss-selector-parser@6.0.14)
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 8.3.6
@@ -4226,7 +4217,7 @@ packages:
       postcss: 8.4.32
       postcss-resolve-nested-selector: 0.1.1
       postcss-safe-parser: 6.0.0(postcss@8.4.32)
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       string-width: 4.2.3
@@ -4614,12 +4605,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/encas-parka/hugo-enka-cookbook/3dea2c19f039a92e7751f37f9e740e2ee63cafde(vue@2.7.16):
-    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/3dea2c19f039a92e7751f37f9e740e2ee63cafde}
-    id: github.com/encas-parka/hugo-enka-cookbook/3dea2c19f039a92e7751f37f9e740e2ee63cafde
+  github.com/encas-parka/hugo-enka-cookbook/565f70935584064882a61c425716f0a2d2129a50(vue@2.7.16):
+    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/565f70935584064882a61c425716f0a2d2129a50}
+    id: github.com/encas-parka/hugo-enka-cookbook/565f70935584064882a61c425716f0a2d2129a50
     name: '@qaldek/hugo-enka-cookbook'
     version: 0.9.0
-    requiresBuild: true
     dependencies:
       '@hyas/bootstrap': 1.0.4
       '@hyas/images': 2.0.3
