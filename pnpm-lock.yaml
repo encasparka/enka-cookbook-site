@@ -19,7 +19,7 @@ dependencies:
     version: 4.6.13
   hugo-enka-cookbook:
     specifier: github:encas-parka/hugo-enka-cookbook
-    version: github.com/encas-parka/hugo-enka-cookbook/565f70935584064882a61c425716f0a2d2129a50(vue@2.7.16)
+    version: github.com/encas-parka/hugo-enka-cookbook/a0b0ef7776c2f65f7e6a3034dabbb48a5832256e(vue@2.7.16)
 
 devDependencies:
   gethyas:
@@ -4605,9 +4605,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/encas-parka/hugo-enka-cookbook/565f70935584064882a61c425716f0a2d2129a50(vue@2.7.16):
-    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/565f70935584064882a61c425716f0a2d2129a50}
-    id: github.com/encas-parka/hugo-enka-cookbook/565f70935584064882a61c425716f0a2d2129a50
+  github.com/encas-parka/hugo-enka-cookbook/a0b0ef7776c2f65f7e6a3034dabbb48a5832256e(vue@2.7.16):
+    resolution: {tarball: https://codeload.github.com/encas-parka/hugo-enka-cookbook/tar.gz/a0b0ef7776c2f65f7e6a3034dabbb48a5832256e}
+    id: github.com/encas-parka/hugo-enka-cookbook/a0b0ef7776c2f65f7e6a3034dabbb48a5832256e
     name: '@qaldek/hugo-enka-cookbook'
     version: 0.9.0
     dependencies:
