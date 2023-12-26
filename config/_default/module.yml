@@ -1,3 +1,7 @@
+imports: 
+  - path: github.com/encas-parka/enka-cookbook-site
+  
+
 mounts: 
   - source: layouts
     target: layouts
