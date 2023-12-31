@@ -42,7 +42,7 @@ footer: Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="http
 copyRight: ""
 alert: false
 alertDismissable: true
-alertText: Deliver web projects 10x faster. <a class="alert-link" href="https://www.netlify.com/whitepaper/" target="_blank" rel="noopener">Get the free enterprise paper →</a>
+alertText: ""
 seo:
   - title:
     separator: " | "
