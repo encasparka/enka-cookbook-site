@@ -1,7 +1,7 @@
 module github.com/encas-parka/enka-cookbook-site
 
 // for dev only. Comment for production
-// replace github.com/encas-parka/hugo-enka-cookbook => ../hugo-enka-cookbook
+replace github.com/encas-parka/hugo-enka-cookbook => ../hugo-enka-cookbook
 
 go 1.21
 
