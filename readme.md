@@ -4,17 +4,17 @@
 
 Ce dépôt héberge un site permettant le partage de recettes de cuisine. Il est construit à partir du thème [hugo-enka-cookbook](https://github.com/encas-parka/hugo-enka-cookbook), et est consultable sur  [enka-cookbook.netlify.app](https://enka-cookbook.netlify.app). Un site de démonstration/bac-à-sable est disponible pour tester le site sur [hugo-cookbook-demo](). Pour participer à ce site, voir la [documentation d'enka-cookbook](). Pour dupliquer ce site, voir [hugo-enka-cookbook](https://github.com/encas-parka/hugo-enka-cookbook).
 
-Il vise à être un outil pour les collectifs cuisinant à l'occasion d'événements militants/solidaire. Il permet le partage de recettes de cuisine (avec calcul des quantités en fonction du nombre de couvert prévu) et la création de menus et série de menus pour des événements se déroulant sur plusieurs jours. 
+Il vise à être un outil pour les collectifs cuisinant à l'occasion d'événements militants/solidaires. Il permet le partage de recettes de cuisine (avec calcul des quantités en fonction du nombre de couverts prévus) et la création de menus et séries de menus pour des événements se déroulant sur plusieurs jours. 
 
-Il est possible de retrouver les recettes par un module de recherche présent sur la barre de menu en haut de chaque page du site, ou d'utiliser la page "Explorer", qui permet de filtré les recettes en fonction de différents critères (catégories, régimes spéciaux, ingrédients, etc. )
+Il est possible de retrouver les recettes par un module de recherche présent sur la barre de menu en haut de chaque page du site, ou d'utiliser la page "Explorer", qui permet de filtrer les recettes en fonction de différents critères (catégories, régimes spéciaux, ingrédients, etc. )
 
 ## Les pages événements
 
 Ces pages événements permettent:
 
-- de rassembler différentes recettes pour le nombre de couvert prévu pour chaque repas / chaque jours. 
+- de rassembler différentes recettes pour le nombre de couverts prévus pour chaque repas / chaque jours. 
 
-- de lister l'ensemble des ingrédients nécessaires pour l'ensemble des recettes, avec le calcul des quantités totales pour chaque ingrédient. Ces listes sont présentées sous forme de tableaux, classés par type d'ingrédients (fruits et légume, ingrédients sec, frais, etc.). L'objectif est de faciliter l'approvisionnement et l'économat des ingrédients. Pour cela, il est possible d'afficher les quantités totales nécessaires de chaque ingrédients sur l'ensemble de l'événement ou pour une période donnée. Il est aussi possible d'afficher à part des tableaux concernant uniquement les aliments frais, sur des intervalles de jours défini (par exemple par tranche de 3 jours). Enfin, il est possible d'afficher dans ces tableaux, pour chaque ingrédient, les recettes (jour, horaire, nombre de couvert et quantité) à partir desquelles ont été calculé le total affiché.  
+- de lister l'ensemble des ingrédients nécessaires pour l'ensemble des recettes, avec le calcul des quantités totales pour chaque ingrédient. Ces listes sont présentées sous forme de tableaux, classés par type d'ingrédients (fruits et légumes, ingrédients sec, frais, etc.). L'objectif est de faciliter l'approvisionnement et l'économat des ingrédients. Pour cela, il est possible d'afficher les quantités totales nécessaires de chaque ingrédients sur l'ensemble de l'événement ou pour une période donnée. Il est aussi possible d'afficher à part des tableaux concernant uniquement les aliments frais, sur des intervalles de jours défini (par exemple par tranche de 3 jours). Enfin, il est possible d'afficher dans ces tableaux, pour chaque ingrédient, les recettes (jour, horaire, nombre de couvert et quantité) à partir desquelles ont été calculé le total affiché.  
 
 ### Impression et export PDF
 
