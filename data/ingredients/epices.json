@@ -1,6 +1,9 @@
 {
   "ingredients": [
     {
+      "title": "Vinaigre de riz"
+    },
+    {
       "title": "Aneth aromatique",
       "vegan": true,
       "vegetarien": true
@@ -124,21 +127,24 @@
       "title": "Mayonnaise",
       "vegan": true,
       "vegetarien": true,
-      "alergenesIng": ["Oeuf", "Moutarde"]
+      "alergenesIng": [
+        "Oeuf",
+        "Moutarde"
+      ]
     },
     {
       "title": "Menthe",
       "vegan": true,
       "vegetarien": true
     },
-
     {
       "title": "Moutarde",
       "vegan": true,
-      "alergenesIng": ["Moutarde"],
+      "alergenesIng": [
+        "Moutarde"
+      ],
       "vegetarien": true
     },
-
     {
       "title": "Muscade",
       "vegan": true,
@@ -187,7 +193,9 @@
     {
       "alergene": true,
       "title": "Ras el hanout",
-      "alergenesIng": ["Moutarde"],
+      "alergenesIng": [
+        "Moutarde"
+      ],
       "vegan": true,
       "vegetarien": true
     },
@@ -203,7 +211,9 @@
     },
     {
       "title": "Sauce soja",
-      "alergenesIng": ["Soja"],
+      "alergenesIng": [
+        "Soja"
+      ],
       "vegan": true,
       "vegetarien": true
     },
@@ -220,28 +230,36 @@
     {
       "alergene": true,
       "title": "Sésame doré",
-      "alergenesIng": ["Sésame"],
+      "alergenesIng": [
+        "Sésame"
+      ],
       "vegan": true,
       "vegetarien": true
     },
     {
       "alergene": true,
       "title": "Sésame blanc",
-      "alergenesIng": ["Sésame"],
+      "alergenesIng": [
+        "Sésame"
+      ],
       "vegan": true,
       "vegetarien": true
     },
     {
       "alergene": true,
       "title": "Sésame brun",
-      "alergenesIng": ["Sésame"],
+      "alergenesIng": [
+        "Sésame"
+      ],
       "vegan": true,
       "vegetarien": true
     },
     {
       "alergene": true,
       "title": "Sésame noir",
-      "alergenesIng": ["Sésame"],
+      "alergenesIng": [
+        "Sésame"
+      ],
       "vegan": true,
       "vegetarien": true
     },
@@ -253,7 +271,9 @@
     {
       "alergene": true,
       "title": "Vinaigre balsamique",
-      "alergenesIng": ["Sulfites"]
+      "alergenesIng": [
+        "Sulfites"
+      ]
     },
     {
       "title": "Vinaigrette",
