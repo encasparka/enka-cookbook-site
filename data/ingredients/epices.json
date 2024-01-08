@@ -1,6 +1,12 @@
 {
   "ingredients": [
     {
+      "title": "Tamari (sauce)",
+      "alergenesIng": [
+        "Soja"
+      ]
+    },
+    {
       "title": "Vinaigre de riz"
     },
     {
