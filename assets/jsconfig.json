@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../../hugo-enka-cookbook/assets/*"
+    "*"
    ]
   }
  }
