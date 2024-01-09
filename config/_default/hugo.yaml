@@ -1,5 +1,5 @@
 baseURL: '/'
-# theme: github.com/encas-parka/hugo-enka-cookbook
+theme: github.com/encas-parka/hugo-enka-cookbook
 relativeURLs: true
 canonifyURLs: false
 disableAliases: true
