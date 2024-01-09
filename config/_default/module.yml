@@ -2,11 +2,11 @@
 # Import assets from hugo-enka-cookbook theme (bootstrap, vue, vuetify, flatpickr, ...js, css and default images & icons)
 imports: 
   - path: "github.com/encas-parka/hugo-enka-cookbook"
-#     mounts:
+    mounts:
 #       - source: assets
 #         target: assets
-#       - source: layouts
-#         target: layouts
+      - source: layouts
+        target: layouts
 #       - source: static
 #         target: static
 
@@ -17,3 +17,4 @@ imports:
 #     target: layouts
 #   - source: static
 #     target: static
+
