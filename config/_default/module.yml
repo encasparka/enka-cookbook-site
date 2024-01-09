@@ -15,7 +15,7 @@ imports:
 mounts: 
   - source: assets
     target: assets
-  # - source: layouts
-  #   target: layouts
+  - source: layouts
+    target: layouts
   - source: static
     target: static
