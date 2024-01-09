@@ -1,4 +1,4 @@
-baseURL: 'https://enka-cookbook.netlify.app/'
+baseURL: '/'
 # theme: github.com/encas-parka/hugo-enka-cookbook
 relativeURLs: true
 canonifyURLs: false
