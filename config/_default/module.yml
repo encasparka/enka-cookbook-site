@@ -4,12 +4,12 @@ imports:
   - path: "github.com/encas-parka/hugo-enka-cookbook"
     mounts:
     # BUG : sans dossier assets en dure, ne fonctionne pas....
-      # - source: assets
-      #   target: assets
+      - source: assets
+        target: assets
       - source: layouts
         target: layouts
-      # - source: static
-      #   target: static
+      - source: static
+        target: static
 
 
 mounts: 
