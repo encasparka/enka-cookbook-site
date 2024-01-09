@@ -33,12 +33,13 @@ ingredients:
     - title: Farine de blé
       quantite: 170
       unit: grammes
-    - title: Crème épaisse
-      quantite: 1
-      unit: c. à soupe
     - title: Lait demi-écrémé
       quantite: 120
       unit: ml
+  frais: 
+    - title: Crème épaisse
+      quantite: 1
+      unit: c. à soupe
     - title: Comté
       quantite: 100
       unit: grammes

@@ -28,6 +28,7 @@ ingredients:
     - title: Comté
       quantite: 100
       unit: grammes
+  frais:
     - title: Bûche de chèvre
       quantite: 150
       unit: grammes

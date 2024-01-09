@@ -17,15 +17,16 @@ ingredients:
     - title: Oeuf
       quantite: 17
       unit: unité
+      commentaire: à faire ramolir
+    - title: Farine de tapioca
+      quantite: 2.7
+      unit: Kg
+  frais:
     - title: Feta
       quantite: 4
       unit: Kg
     - title: Beurre demi-sel
       quantite: 1
-      unit: Kg
-      commentaire: à faire ramolir
-    - title: Farine de tapioca
-      quantite: 2.7
       unit: Kg
   autres:
     - title: Levure chimique

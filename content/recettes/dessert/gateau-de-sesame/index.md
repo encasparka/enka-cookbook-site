@@ -23,6 +23,7 @@ ingredients:
     - title: Farine de blé
       quantite: 1
       unit: Kg
+  frais:
     - title: Beurre demi-sel
       quantite: 2
       unit: Kg
