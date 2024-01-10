@@ -1,10 +1,8 @@
 .directory
-_vendor
+resources
 public
-node_modules
 *bak
 *BAK
-resources
 .netlify
 .hugo_build.lock
 .vscode

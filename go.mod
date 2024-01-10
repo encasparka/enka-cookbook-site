@@ -1,8 +1,8 @@
 module github.com/encas-parka/enka-cookbook-site
 
 // uncomment for dev
-// replace github.com/encas-parka/hugo-enka-cookbook => /home/geo/Developpement/WebSites/encas-parka_hyas-2.2/hugo-enka-cookbook
+// replace github.com/encas-parka/hugo-cookbook-theme => ../hugo-cookbook-theme
 
-go 1.19
+go 1.21
 
-require github.com/encas-parka/hugo-enka-cookbook v0.0.0-20240109042022-2d8dacfce897 // indirect
+require github.com/encas-parka/hugo-cookbook-theme v0.0.0-20240110053218-71d3bda3cd63 // indirect
