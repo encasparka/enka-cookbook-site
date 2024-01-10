@@ -1,6 +1,7 @@
 .directory
 resources
 public
+**/jsconfig.json
 *bak
 *BAK
 .netlify
