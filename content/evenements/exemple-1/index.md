@@ -2,6 +2,24 @@
 title: Exemple 1
 sitemap_exclude: "true"
 repas:
+  - assiettes: 45
+    date_service: 2024-01-12T02:18:09.558Z
+    horaire: soir
+    recettes_du_repas:
+      - recette: Tartinade petits pois citrons confits menthe
+        type_plat: plat
+      - recette: Taboulé libanais
+        type_plat: entree
+      - recette: Chou mariné à la japonaise
+        type_plat: entree
+  - assiettes: 950
+    date_service: 2024-01-11T02:16:07.748Z
+    horaire: soir
+    recettes_du_repas:
+      - recette: Aubergines grillées au miso
+        type_plat: plat
+      - recette: Salade de Pois-chiche
+        type_plat: entree
   - assiettes: 346
     date_service: 2024-01-11T02:02:04.835Z
     horaire: midi
