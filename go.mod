@@ -5,4 +5,4 @@ module github.com/encas-parka/enka-cookbook-site
 
 go 1.21
 
-require github.com/encas-parka/hugo-cookbook-theme v0.0.0-20240112132506-3e30fc04a108 // indirect
+require github.com/encas-parka/hugo-cookbook-theme v0.0.0-20240121235537-09cdd2859399 // indirect
