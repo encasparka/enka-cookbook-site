@@ -3,8 +3,8 @@ backend:
   # name: github
   # repo: 
   branch: main
-  # open_authoring: true #Permettre un PR sur github sans l'acces aux dépot
-  # squash_merges: true  # Vérifier si ca marche bien : si un article est modifier plusieur fpos avant d'etre mergé/publié, un seul commit avec rebased.
+  squash_merges: true  # Vérifier si ca marche bien : si un article est modifier plusieur fpos avant d'etre mergé/publié, un seul commit avec rebased.
+publish_mode: editorial_workflow
 
 logo_url: https://enka-cookbook.netlify.app/cover.png
 
