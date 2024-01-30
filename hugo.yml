@@ -118,6 +118,12 @@ fillImage: 1280x720 Center
 footer: Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://gohugo.io/">Hugo</a>, and <a href="https://gethyas.com/">Hyas</a>
 copyRight: ""
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
 # seo:
 #   - title:
 #     separator: " | "

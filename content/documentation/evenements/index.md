@@ -14,9 +14,6 @@ L'objectif est de faciliter l’approvisionnement et l'économat des ingrédient
 Enfin, il est possible d'afficher dans ces tableaux, pour chaque ingrédient, les recettes (jour, horaire, nombre de couvert et quantité) à partir desquelles ont été calculé le total affiché.
 
 
-<!-- {{< gallery-slider dir="/images/documentation/slide/event1/" >}} -->
-
-
 ### Impression et export PDF
 
 Les impressions ou l'enregistrement en pdf des pages événements et de leurs différentes parties sont facilité par différents moyen.
