@@ -8,3 +8,4 @@ public
 .hugo_build.lock
 .vscode
 _vendor
+node_modules
